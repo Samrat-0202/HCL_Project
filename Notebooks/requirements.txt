@@ -1,0 +1,7 @@
+Pandas
+Numpy
+matplotlib
+seaborn
+jupyter
+git
+github
