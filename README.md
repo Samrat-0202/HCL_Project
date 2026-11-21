@@ -19,8 +19,6 @@ A national team's coaching staff and scouting analysts want to know which factor
 The raw file intentionally has missing values, duplicates, inconsistent text and impossible values so you can practise cleaning.
 
 ## Project structure
-```
-FIFA WC2026 .../
 ├── DATA/
 │   ├── processed/
 │   │   └── player_clean.csv
