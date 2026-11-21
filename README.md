@@ -20,12 +20,23 @@ The raw file intentionally has missing values, duplicates, inconsistent text and
 
 ## Project structure
 ```
-world-cup-2026-player-performance/
-├── data/
-│   ├── raw/wc2026_data.csv
-│   └── processed/wc2026_clean.csv
-├── notebooks/day1 day3.ipynb/day2 day4.ipynb
-├── images/                  (charts saved by the notebook)
+FIFA WC2026 .../
+├── DATA/
+│   ├── processed/
+│   │   └── player_clean.csv
+│   └── RAW data/
+│       └── wc2026_data.csv
+├── Documentation/
+├── Images/
+│   ├── 01_overall_performance.png
+│   ├── Q.01_goal_contributions_distribution.png
+│   ├── Q.02_minutes_shots_vs_contributions.png
+│   ├── Q.03_group_comparison.png
+│   └── Q.04_quiet_players_by_position.png
+├── Notebooks/
+│   ├── Draft1 day3.ipynb
+│   └── Draft2 day4.ipynb
+├── requirements.txt
 └── README.md
 ```
 
@@ -46,9 +57,11 @@ jupyter notebook notebooks/.ipynb
 - About 25% of players (63 of 250) had a Quiet Tournament, and 12 of them played 400 or more minutes.
 
 ## Charts
-![Overall](images/01_overall_performance.png)
-![Goal contributions](images/02_goal_contributions_distribution.png)
-![Quiet players](images/03_quiet_players_by_position.png)
+![Overall](Images/01_overall_performance.png)
+![Goal contributions](Images/Q.01_goal_contributions_distribution.png)
+![Minutes and shots](Images/Q.02_minutes_shots_vs_contributions.png)
+![Groups](Images/Q.03_group_comparison.png)
+![Quiet players](Images/Q.04_quiet_players_by_position.png)
 
 ## Tools
 Python 3 · pandas · NumPy · matplotlib · seaborn · Jupyter Notebook
